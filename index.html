@@ -20,39 +20,159 @@
 		border: 0;
 	}
 
+	h1,p, div {
+		text-align: center;
+	}
+	.wrapper {
+		width: 100%;
+		table-layout: fixed;
+		background-color: #cccccc;
+		padding-bottom: 60px;
+	}
+	.main {
+		background-color: #ffffffff;
+		/* to center the table */
+		margin: 0 auto;
+		width:100%;
+		max-width: 600px;
+		border-spacing: 0;
+		font-family: sans-serif;
+		color: #4a4a4a;
+	}
+	.two-columns {
+		text-align: center;
+		font-size: 0;
+
+		/* display: flex;
+		justify-content: space-between; */
+	}
+	.two-columns .column {
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
 </style>
 </head>
 <body>
+<div class="wrapper">
+	<table class="main" width="100%">
 
+	
 
 <!-- BLUE BORDER -->
+	<tr>
+		<td height="8" style="background-color: #289dcf;"></td>
+	</tr>
+<!-- HEADER SECTION -->
+	<tr>
+		<td>
+			<table width="100%">
+				<tr>
+					<td class="two-columns">
+
+						<table class="column">
+							<tr>
+								<td>
+									<a 
+									href="https://github.com/marcelleemendess" 
+									target="_blank" rel="noopener">
+										<img src="img/insight.png" alt="Logo" title="Logo" width="180">
+									</a>
+								</td>
+							</tr>
+						</table>
+
+						<table class="column">
+							<tr>
+								<td>
+									<a 
+									href="#" 
+									>
+										<img src="img/circle-facebook.png" alt="Facebook icon"  width="32">
+									</a>
+									<a 
+									href="#" 
+									>
+										<img src="img/circle-twitter.png" alt="Twitter icon"  width="32">
+									</a>
+									<a 
+									href="#" 
+									>
+										<img src="img/circle-linkedin.png" alt="LinkedIn icon" width="32">  
+									</a>
+									<a 
+									href="#" 
+									>
+										<img src="img/circle-instagram.png" alt="Instagram icon"  width="32">
+									</a>
+									<a 
+									href="#" 
+									>
+										<img src="img/circle-youtube.png" alt="Youtube icon"  width="32">
+									</a>
+								</td>
+							</tr>
+						</table>
 
 
-<!-- LOGO SECTION -->
-
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>	
 
 <!-- BANNER IMAGE -->
 
 
 <!-- TITLE, TEXT & BUTTON -->
+	<tr>
+		<td>
+			<table width="100%">
 
+			</table>
+		</td>
+	</tr>
 
 <!-- BLUE BORDER -->
 
 
 <!-- THREE COLUMN SECTION -->
+	<tr>
+		<td>
+			<table width="100%">
 
+			</table>
+		</td>
+	</tr>
 
 <!-- BLUE BORDER -->
 
 
 <!-- TWO COLUMN SECTION -->
+<tr>
+	<td>
+		<table width="100%">
 
+		</table>
+	</td>
+</tr>
 
 <!-- FOOTER SECTION -->
+<tr>
+	<td>
+		<table width="100%">
 
+		</table>
+	</td>
+</tr>
 
-
+</table>
+</div>
 
 </body>
 </html>
+
+<!-- this design will work in most email clients, but won't work on Windows email clients (Outlook). That requires the conditionals statements/ghost tables -->
