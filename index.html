@@ -61,6 +61,36 @@
 		font-weight: bold;
 		border-radius: 5px;
 	}
+	.three-columns {
+		text-align:center;
+		font-size: 0;
+		padding: 35px 0 20px;
+	}
+	.three-columns .column {
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.three-columns .padding {
+		padding: 15px;
+	}
+	.three-columns .content {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.two-columns .last {
+		padding: 35px 0;
+	}
+	.two-columns .padding {
+		padding: 20px;
+	}
+	.two-columns .content {
+		font-size: 15px;
+		line-height: 20px;
+		text-align: left;
+	}
+
 
 
 </style>
@@ -264,7 +294,51 @@
 		<tr>
 			<td>
 				<table width="100%">
+					<tr>
+						
+						<td class="two-columns last">
+							<table class="column">
+								<tr>
+									<td class="padding">
+										<table class="content">
+											<tr>
+												<td>
+													<a href="#"><img src="img/palette.jpg" alt="Color Palette"
+														width="260px"
+														style="max-width: 260px;"></a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
 
+							<table class="column">
+								<tr>
+									<td class="padding">
+										<table class="content">
+											<tr>
+												<td>
+													<p style="font-size: 17px; font-weight: bold;">
+														Create Custom Design
+													</p>
+													<p>
+														Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, quaerat.
+														Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, quaerat.
+													</p>
+													<p style="padding-bottom: 15px;">
+														Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit!
+													</p>
+													<a href="#" class="button">Read More</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						
+					</tr>
 				</table>
 			</td>
 		</tr>
