@@ -30,6 +30,7 @@
 		padding-bottom: 60px;
 	}
 	.main {
+		/* same e-mail clients can invert the colot to dark mode */
 		background-color: #ffffffff;
 		/* to center the table */
 		margin: 0 auto;
@@ -52,125 +53,233 @@
 		display: inline-block;
 		vertical-align: top;
 	}
+	.button {
+		background-color: #289dcf;
+		color: #ffffffff;
+		text-decoration: none;
+		padding: 12px 20px;
+		font-weight: bold;
+		border-radius: 5px;
+	}
 
 
 </style>
 </head>
 <body>
-<div class="wrapper">
+<center class="wrapper">
 	<table class="main" width="100%">
+		<!-- BLUE BORDER -->
+			<tr>
+				<td height="8" style="background-color: #289dcf;"></td>
+			</tr>
+		<!-- LOGO/HEADER SECTION -->
+			<tr>
+				<td style="padding: 14px 0 4px;">
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
 
-	
+								<table class="column">
+									<tr>
+										<td style="padding: 0 62px 10px;">
+											<a 
+											href="https://github.com/marcelleemendess" 
+											target="_blank" rel="noopener">
+												<img src="img/insight.png" alt="Logo" title="Logo" width="180">
+											</a>
+										</td>
+									</tr>
+								</table>
 
-<!-- BLUE BORDER -->
-	<tr>
-		<td height="8" style="background-color: #289dcf;"></td>
-	</tr>
-<!-- HEADER SECTION -->
-	<tr>
-		<td style="padding: 14px 0 4px;">
-			<table width="100%">
-				<tr>
-					<td class="two-columns">
-
-						<table class="column">
-							<tr>
-								<td style="padding: 0 62px 10px;">
-									<a 
-									href="https://github.com/marcelleemendess" 
-									target="_blank" rel="noopener">
-										<img src="img/insight.png" alt="Logo" title="Logo" width="180">
-									</a>
-								</td>
-							</tr>
-						</table>
-
-						<table class="column">
-							<tr>
-								<td>
-									<a 
-									href="#" 
-									>
-										<img src="img/circle-facebook.png" alt="Facebook icon"  width="32">
-									</a>
-									<a 
-									href="#" 
-									>
-										<img src="img/circle-twitter.png" alt="Twitter icon"  width="32">
-									</a>
-									<a 
-									href="#" 
-									>
-										<img src="img/circle-linkedin.png" alt="LinkedIn icon" width="32">  
-									</a>
-									<a 
-									href="#" 
-									>
-										<img src="img/circle-instagram.png" alt="Instagram icon"  width="32">
-									</a>
-									<a 
-									href="#" 
-									>
-										<img src="img/circle-youtube.png" alt="Youtube icon"  width="32">
-									</a>
-								</td>
-							</tr>
-						</table>
+								<table class="column">
+									<tr>
+										<td style="padding: 10px 68px">
+											<a 
+											href="#" 
+											>
+												<img src="img/circle-facebook.png" alt="Facebook icon"  width="32">
+											</a>
+											<a 
+											href="#" 
+											>
+												<img src="img/circle-twitter.png" alt="Twitter icon"  width="32">
+											</a>
+											<a 
+											href="#" 
+											>
+												<img src="img/circle-linkedin.png" alt="LinkedIn icon" width="32">  
+											</a>
+											<a 
+											href="#" 
+											>
+												<img src="img/circle-instagram.png" alt="Instagram icon"  width="32">
+											</a>
+											<a 
+											href="#" 
+											>
+												<img src="img/circle-youtube.png" alt="Youtube icon"  width="32">
+											</a>
+										</td>
+									</tr>
+								</table>
 
 
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>	
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>	
 
-<!-- BANNER IMAGE -->
+		<!-- BANNER IMAGE -->
+			<tr>
+				<td>
+					<a href="#" >
+						<img src="img/banner.jpg" width="600" alt="Banner" style="max-width: 100%;">
+					</a>
+				</td>
+			</tr>
 
+		<!-- TITLE, TEXT & BUTTON -->
+			<tr>
+				<td style="padding: 5px 0 50px;">
+					<table width="100%">
+						<tr>
+							<td style="text-align: center; padding: 15px;">
+								<p style="font-size: 20px; font-weight: bold;">HTML Email Template <strong style="color: #289dcf;">by Marcelle</strong>
+								Lore</p>
+								<p style="font-size: 15px; line-height: 23px; padding: 5px 0 15px;">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit iste, eveniet dolores amet fuga, saepe voluptatibus magni aliquam deleniti ratione, necessitatibus sit quas sed modi libero dicta autem consectetur.
+								</p>
+								<a href="#" class="button">View More</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
-<!-- TITLE, TEXT & BUTTON -->
-	<tr>
-		<td>
-			<table width="100%">
+		<!-- BLUE BORDER -->
+		<tr>
+			<td height="2" style="background-color: #a6d8ee;"></td>
+		</tr>
+		<!-- THREE COLUMN SECTION -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="three-columns">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#">
+															<img src="img/ecommerce.jpg" 
+															alt="Cart"
+															width="110px"
+															style="max-width: 110px;
+															border-radius:55px;"
+														></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 10px;">
+														<p style="font-weight:bold;font-size:17px;">Ecommerce</p>
+														<p>
+															Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, culpa!
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
 
-			</table>
-		</td>
-	</tr>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#">
+															<img src="img/web-design.jpg" 
+															alt="Cart"
+															width="110px"
+															style="max-width: 110px;
+															border-radius:55px;"
+														></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 10px;">
+														<p style="font-weight:bold;font-size:17px;">Web Design</p>
+														<p>
+															Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, culpa!
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
 
-<!-- BLUE BORDER -->
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#">
+															<img src="img/email-design.jpg" 
+															alt="Cart"
+															width="110px"
+															style="max-width: 110px;
+															border-radius:55px;"
+														></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 10px;">
+														<p style="font-weight:bold;font-size:17px;">HTML Email</p>
+														<p>
+															Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, culpa!
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
+		<!-- BLUE BORDER -->
+		<tr>
+			<td height="2" style="background-color: #289dcf;"></td>
+		</tr>
+		<!-- TWO COLUMN SECTION -->
+		<tr>
+			<td>
+				<table width="100%">
 
-<!-- THREE COLUMN SECTION -->
-	<tr>
-		<td>
-			<table width="100%">
+				</table>
+			</td>
+		</tr>
 
-			</table>
-		</td>
-	</tr>
+		<!-- FOOTER SECTION -->
+		<tr>
+			<td>
+				<table width="100%">
 
-<!-- BLUE BORDER -->
+				</table>
+			</td>
+		</tr>
 
-
-<!-- TWO COLUMN SECTION -->
-<tr>
-	<td>
-		<table width="100%">
-
-		</table>
-	</td>
-</tr>
-
-<!-- FOOTER SECTION -->
-<tr>
-	<td>
-		<table width="100%">
-
-		</table>
-	</td>
-</tr>
-
-</table>
-</div>
+	</table>
+</center>
 
 </body>
 </html>
